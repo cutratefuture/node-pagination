@@ -1,0 +1,24 @@
+{
+  "name": "node-pagination",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -e ejs,css server.js",
+    "p1": "sh ~/.bash/bin/gitpull.sh",
+    "p2": "sh ~/.bash/bin/gitpush.sh",
+    "n": "sudo rm -r node_modules",
+    "light": "lighthouse http://localhost:3900/ --view"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
